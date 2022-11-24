@@ -1,0 +1,33 @@
+.card {
+  /* flex: 1; */
+  justify-content: space-between;
+  /*Style for presentation purpose*/
+  font-family: 'calibri';
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 10px;
+  padding: 12px;
+  width: 300px;
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 747px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 10%;
+    width: 100%;
+  }
+
+  .card {
+    /* flex: 1; */
+    /* flex-flow: row wrap; */
+    width: 300px;
+    /* Then we define how is distributed the remaining space */
+    /* justify-content: space-around; */
+  }
+}
